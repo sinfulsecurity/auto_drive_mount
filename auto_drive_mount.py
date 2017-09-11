@@ -3,6 +3,7 @@ Script: auto_drive_mount.py
 Author: Dennis (DJ) Moder
 Disclosure: Script was developed on my personal time, with personal assets. This script is free to use
 and free to modify.
+License: GNU General Public License
 Script Purpose: Allows for interactive mounting of remote drives and cuts back on the monotonous net use commands
 """
 
