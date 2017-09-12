@@ -19,7 +19,7 @@ Drive = raw_input("Please enter a drive letter: ")
 
 print ("[!] Dismounting specified drive, just in case.")
 #Dismounts specified drive letter, just in case :)
-subprocess.call((r'net use '+Drive+' /del', shell=True)
+subprocess.call(r'net use '+Drive+' /del', shell=True)
 
 
 print ("[!] Connecting to Hostname")
