@@ -24,6 +24,6 @@ subprocess.call((r'net use '+Drive+' /del', shell=True)
 
 print ("[!] Connecting to Hostname")
 # Connect to shared drive, use drive letter M
-subprocess.call(r'net use ' + Drive+':' + r' \\'+Target+'\c$' + ' '+'/user:'+User+':'+Pass, shell=True)
+subprocess.call(r'net use ' + Drive+':' + r' \\'+Target+'\c$' + ' '+'/user:'+User+' '+Pass, shell=True)
 
 print ("[*] Process Complete. Please confirm drive mounted successfully")
